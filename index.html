@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Examples of CSS transition, transformation and animation">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div class="wrapper" id="home">
+
+        <header>
+            <h1>CSS transition, transformation & Animation</h1>
+        </header>
+
+        <nav>
+            <ol>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#transition">Transition</a></li>
+                <li><a href="#transformation">Transformation</a></li>
+                <li><a href="#animation">Animation</a></li>
+             </ol>
+        </nav>
+
+        <main>
+
+            <section id="transition">
+                <h1>CSS Transition</h1>
+                <p>The transition property transition an element from state to state. For example like when you have a hover event. It makes the transition happen over the specified time.</p>
+
+                <div class="transition-box">
+
+
+                </div>
+
+            </section>
+
+            <section id="transformation">
+
+                <h1>CSS Transformation</h1>
+                <p>The transform property will take an element and transform it in some way. There are few different things we could do </p>
+                
+                <li>Scale - Scales an element by a factor</li>
+                <li>Rotate - Rotate the element using degrees</li>
+                <li>Skew - Skew an element using deg</li>
+                <li>Translate - Moves an element on the X and Y axis</li>
+                <li>Prespective - Will give a child element 3D prespective when rotated. A lower number will mean a more extreme prespective.</li>
+                <li>Marix - Matrix is simply using multiple of these at the same time but a true matrix is convert to numbers.</li>
+                
+                <p><mark>Please Note - Transform can be used with transition and/ or animation but don't have to be. If used on its own, it will just be static.</mark></p>
+                <p>Below is an example of each</p>
+
+                <hr>
+
+                <h2>Scale</h2>
+                <p class="text-scale">See look this text scales! See look this text scales! See look this text scales! See look this text scales! See look this text scales! </p>
+
+                <h2>Rotate</h2>
+                <img src="img/Scale img.png" alt="Friends">
+
+                <h2>Skew</h2>
+                <img src="img/apeach.png" alt="Apeach">
+
+                <h2>Translate</h2>
+                <div class="translate-box">
+                    
+                </div>
+
+                <h2>Perspective</h2>
+                <div class="perspective-parent">
+                    <div class="perspective-child">
+                        <p>The perspective effects the child</p>
+                    </div>
+
+                    <div class="perspective-child2">
+                        <p>the back evil child</p>
+                    </div>
+                </div>
+
+                <h2>Matrix</h2>
+                <div class="matrix-box">
+
+                </div>
+                
+            </section>
+
+
+            <section id="animation">
+
+                <h1>Animation</h1>
+                <h2>Animation just animate an element using keyframes.</h2>
+
+                <div class="animation-box">
+                    
+                </div>
+            
+            </section>
+
+        </main>
+
+        <footer>
+
+
+        </footer>
+
+
+    </div>
+    
+</body>
+</html>
